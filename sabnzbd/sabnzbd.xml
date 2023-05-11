@@ -3,7 +3,7 @@
   <Name>sabnzbd</Name>
   <Repository>lscr.io/linuxserver/sabnzbd</Repository>
   <Registry>https://github.com/orgs/linuxserver/packages/container/package/sabnzbd</Registry>
-  <Network>bridge</Network>
+  <Network>starrnet</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

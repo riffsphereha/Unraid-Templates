@@ -3,7 +3,7 @@
   <Name>flatnotes</Name>
   <Repository>dullage/flatnotes</Repository>
   <Registry>https://hub.docker.com/r/dullage/flatnotes</Registry>
-  <Network>bridge</Network>
+  <Network>starrnet</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

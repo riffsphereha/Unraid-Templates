@@ -3,7 +3,7 @@
   <Name>unpackerr</Name>
   <Repository>golift/unpackerr</Repository>
   <Registry>https://hub.docker.com/r/golift/unpackerr</Registry>
-  <Network>bridge</Network>
+  <Network>starrnet</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -47,7 +47,7 @@ Preconfigured to work with my media center guide.</Overview>
   <Config Name="Sonarr URL" Target="UN_SONARR_0_URL" Default="" Mode="" Description="Sonarr URL" Type="Variable" Display="advanced-hide" Required="false" Mask="false">http://sonarr:8989</Config>
   <Config Name="Sonarr Torrent Path" Target="UN_SONARR_0_PATHS_0" Default="/mnt/user/data/downloads/torrents/qbittorrent/sonarr" Mode="" Description="Path to find Sonarr torrents." Type="Variable" Display="advanced-hide" Required="false" Mask="false">/mnt/user/data/downloads/torrents/qbittorrent/sonarr</Config>
   <Config Name="Sonarr NZB Path" Target="UN_SONARR_0_PATHS_1" Default="/mnt/user/data/downloads/nzb/sabnzbd/complete/sonarr" Mode="" Description="Path to find Sonarr nzbs." Type="Variable" Display="advanced-hide" Required="false" Mask="false">/mnt/user/data/downloads/nzb/sabnzbd/complete/sonarr</Config>
-  <Config Name="Sonarr4K URL" Target="UN_SONARR_1_URL" Default="" Mode="" Description="Sonarr4K URL." Type="Variable" Display="advanced-hide" Required="false" Mask="false">http://sonarr:18989</Config>
+  <Config Name="Sonarr4K URL" Target="UN_SONARR_1_URL" Default="" Mode="" Description="Sonarr4K URL." Type="Variable" Display="advanced-hide" Required="false" Mask="false">http://sonarr4k:18989</Config>
   <Config Name="Sonarr4K Torrent Path" Target="UN_SONARR_1_PATHS_0" Default="/mnt/user/data/downloads/torrents/qbittorrent/sonarr4k" Mode="" Description="Path to find Sonarr4K torrents." Type="Variable" Display="advanced-hide" Required="false" Mask="false">/mnt/user/data/downloads/torrents/qbittorrent/sonarr4k</Config>
   <Config Name="Sonarr4K NZB Path" Target="UN_SONARR_1_PATHS_1" Default="/mnt/user/data/downloads/nzb/sabnzbd/complete/sonarr4k" Mode="" Description="Path to find Sonarr4K nzbs." Type="Variable" Display="advanced-hide" Required="false" Mask="false">/mnt/user/data/downloads/nzb/sabnzbd/complete/sonarr4k</Config>
 </Container>

@@ -3,7 +3,7 @@
   <Name>qbittorrentvpn</Name>
   <Repository>binhex/arch-qbittorrentvpn</Repository>
   <Registry>https://registry.hub.docker.com/r/binhex/arch-qbittorrentvpn/</Registry>
-  <Network>bridge</Network>
+  <Network>starrnet</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>

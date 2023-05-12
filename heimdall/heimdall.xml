@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>starrnet</Name>
+  <Name>heimdall</Name>
   <Repository>lscr.io/linuxserver/heimdall</Repository>
   <Registry>https://github.com/orgs/linuxserver/packages/container/package/heimdall</Registry>
-  <Network>bridge</Network>
+  <Network>starrnet</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

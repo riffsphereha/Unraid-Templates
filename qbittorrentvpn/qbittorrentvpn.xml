@@ -18,7 +18,7 @@ PIA certificates can be found at https://www.privateinternetaccess.com/openvpn/o
   <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/qbittorrentvpn.xml</TemplateURL>
-  <Icon>https://github.com/riffsphereha/Unraid-Templates/blob/main/qbittorrent-vpn/qbittorrent-icon.png?raw=true</Icon>
+  <Icon>https://github.com/riffsphereha/Unraid-Templates/blob/main/qbittorrentvpn/qbittorrent-icon.png?raw=true</Icon>
   <ExtraParams>--sysctl="net.ipv4.conf.all.src_valid_mark=1"</ExtraParams>
   <PostArgs/>
   <CPUset/>

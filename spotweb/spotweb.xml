@@ -13,13 +13,13 @@
 &#xD;
 Spotweb requires an operational webserver with PHP7.2 installed, it uses either an MySQL or an PostgreSQL database to store it's contents in.</Overview>
   <Category>Network:Other</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/riffsphereha/Unraid-Templates/main/spotweb/Spotweb.webp</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1684147153</DateInstalled>
+  <DateInstalled>1684147319</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires>MySQL server</Requires>

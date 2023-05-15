@@ -19,17 +19,17 @@ Spotweb requires an operational webserver with PHP7.2 installed, it uses either 
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1684147001</DateInstalled>
+  <DateInstalled>1684147153</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires>MySQL server</Requires>
-  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/spotweb</Config>
   <Config Name="WebUI" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">7171</Config>
-  <Config Name="Database Type" Target="SPOTWEB_DB_TYPE" Default="pdo_mysql" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">pdo_mysql</Config>
   <Config Name="Database server" Target="SPOTWEB_DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Database server port" Target="SPOTWEB_DB_PORT" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">3306</Config>
-  <Config Name="Database Name" Target="SPOTWEB_DB_NAME" Default="spotweb" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Database User" Target="SPOTWEB_DB_USER" Default="spotweb" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Database Name" Target="SPOTWEB_DB_NAME" Default="spotweb" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">spotweb</Config>
+  <Config Name="Database User" Target="SPOTWEB_DB_USER" Default="spotweb" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="false">spotweb</Config>
   <Config Name="Database Password" Target="SPOTWEB_DB_PASS" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/spotweb</Config>
+  <Config Name="Database Type" Target="SPOTWEB_DB_TYPE" Default="pdo_mysql" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">pdo_mysql</Config>
   <Config Name="Retrieve Cron Setting" Target="SPOTWEB_CRON_RETRIEVE" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">*/15 * * * *</Config>
 </Container>

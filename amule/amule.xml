@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>aMule</Name>
+  <Repository>ngosang/amule</Repository>
+  <Registry>https://hub.docker.com/r/ngosang/amule</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ngosang/docker-amule</Support>
+  <Project>https://www.amule.org/</Project>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:4711]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/riffsphereha/Unraid-Templates/blob/main/amule/amule.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1701403435</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="4711" Default="4711" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="Remote UI" Target="4712" Default="4712" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="ed2k tcp port" Target="4662" Default="4662" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="ed2k global search" Target="4665" Default="4665" Mode="udp" Description="Has to be ed2k tcp port +3" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="ed2k udp port" Target="4672" Default="4672" Mode="udp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="Password" Target="WEBUI_PWD" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="AppData" Target="/home/amule/.aMule" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="Complete Downloads" Target="/incoming" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="Incomplete Downloads" Target="/temp" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
+  <Config Name="MOD_FIX_KAD_GRAPH_ENABLE" Target="MOD_FIX_KAD_GRAPH_ENABLE" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+  <Config Name="MOD_FIX_KAD_BOOTSTRAP_ENABLED" Target="MOD_FIX_KAD_BOOTSTRAP_ENABLED" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+</Container>

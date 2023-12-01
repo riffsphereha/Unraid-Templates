@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>amarr</Name>
+  <Repository>vexdev/amarr:latest</Repository>
+  <Registry/>
+  <Network>starrnet</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/vexdev/amarr</Project>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1701410588</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="DL Client Port" Target="8080" Default="" Mode="tcp" Description="Amarr pretends to be qbittorent, this is the port you can use to set it up." Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
+  <Config Name="Complete Downloads" Target="/data/downloads/amule/complete/" Default="" Mode="rw" Description="Try to match this location with the download location in your starr apps." Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/data/downloads/amule/complete/</Config>
+  <Config Name="FINISHED_FOLDER" Target="FINISHED_FOLDER" Default="" Mode="" Description="Make sure to match the container path of the Complete Downloads folder.&#13;&#10;This is what the client reports back to the starr apps as completed folder." Type="Variable" Display="always" Required="false" Mask="false">/data/downloads/amule/complete/</Config>
+  <Config Name="AMULE_HOST" Target="AMULE_HOST" Default="" Mode="" Description="The network address for your amule client, or the name of the container when on a shared network." Type="Variable" Display="always-hide" Required="true" Mask="false">amule</Config>
+  <Config Name="AMULE_PORT" Target="AMULE_PORT" Default="4712" Mode="" Description="Amule remote UI port." Type="Variable" Display="always-hide" Required="true" Mask="false">4712</Config>
+  <Config Name="AMULE_PASSWORD" Target="AMULE_PASSWORD" Default="" Mode="" Description="Amule password" Type="Variable" Display="always-hide" Required="true" Mask="true">password</Config>
+  <Config Name="AppData" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false"></Config>
+</Container>

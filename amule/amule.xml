@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>aMule</Name>
+  <Name>amule</Name>
   <Repository>ngosang/amule</Repository>
   <Registry>https://hub.docker.com/r/ngosang/amule</Registry>
   <Network>bridge</Network>
@@ -9,8 +9,11 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/ngosang/docker-amule</Support>
   <Project>https://www.amule.org/</Project>
-  <Overview/>
-  <Category/>
+  <Overview>aMule is a free peer-to-peer file sharing utility that works with the eDonkey network and the Kad network, offering similar features to eMule and adding others such as GeoIP (country flags). On August 18, 2003 it was forked from the xMule source code, which itself is a fork of the lMule project, which was the first attempt to bring the eMule client to Linux. These projects were discontinued and aMule is the resulting project, though aMule has less and less[clarification needed] resemblance to the client that sired it.&#xD;
+&#xD;
+aMule shares code with the eMule project. The credit and partials downloads of eMule can be used by aMule and vice versa, making program substitution simple.&#xD;
+&#xD;
+aMule aims to be portable over multiple platforms and is doing this with the help of the wxWidgets library. Currently supported systems include Linux, macOS, various BSD-derived systems, Windows, Irix and Solaris. Beside the stable releases the project also offers SVN versions as an unstable release.</Overview>  <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:4711]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/riffsphereha/Unraid-Templates/blob/main/amule/amule.png?raw=true</Icon>
@@ -27,6 +30,7 @@
   <Config Name="ed2k global search" Target="4665" Default="4665" Mode="udp" Description="Has to be ed2k tcp port +3" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
   <Config Name="ed2k udp port" Target="4672" Default="4672" Mode="udp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false"></Config>
   <Config Name="Password" Target="WEBUI_PWD" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="Remote Password" Target="GUI_PWD" Default="" Mode="" Description="Password used by other tools using the Remote UI port (like amarr)" Type="Variable" Display="always-hide" Required="true" Mask="true"></Config>
   <Config Name="AppData" Target="/home/amule/.aMule" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>
   <Config Name="Complete Downloads" Target="/incoming" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>
   <Config Name="Incomplete Downloads" Target="/temp" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false"></Config>

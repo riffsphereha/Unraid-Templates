@@ -9,11 +9,8 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/ngosang/docker-amule</Support>
   <Project>https://www.amule.org/</Project>
-  <Overview>aMule is a free peer-to-peer file sharing utility that works with the eDonkey network and the Kad network, offering similar features to eMule and adding others such as GeoIP (country flags). On August 18, 2003 it was forked from the xMule source code, which itself is a fork of the lMule project, which was the first attempt to bring the eMule client to Linux. These projects were discontinued and aMule is the resulting project, though aMule has less and less[clarification needed] resemblance to the client that sired it.&#xD;
-&#xD;
-aMule shares code with the eMule project. The credit and partials downloads of eMule can be used by aMule and vice versa, making program substitution simple.&#xD;
-&#xD;
-aMule aims to be portable over multiple platforms and is doing this with the help of the wxWidgets library. Currently supported systems include Linux, macOS, various BSD-derived systems, Windows, Irix and Solaris. Beside the stable releases the project also offers SVN versions as an unstable release.</Overview>  <Category>Downloaders:</Category>
+  <Overview>aMule is a free peer-to-peer file sharing utility that works with the eDonkey network and the Kad network, offering similar features to eMule and adding others such as GeoIP (country flags).</Overview>
+  <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:4711]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/riffsphereha/Unraid-Templates/blob/main/amule/amule.png?raw=true</Icon>

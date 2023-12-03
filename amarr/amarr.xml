@@ -9,11 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/vexdev/amarr</Project>
-  <Overview>This connector allows using aMule as a download client for Sonarr and Radarr. It works by emulating a torrent client, so Sonarr and Radarr will manage your downloads as if they were torrents.&#xD;
-&#xD;
-Makes use of jaMule to connect to aMule, which only supports aMule versions 2.3.1 to 2.3.3.&#xD;
-&#xD;
-Amarr has been especially tested with the latest released version of Adunanza.</Overview>
+  <Overview>This connector allows using aMule as a download client for starr apps. It works by emulating a torrent client, so your starr apps will manage your downloads as if they were torrents.</Overview>
   <Category>Downloaders:</Category>
   <WebUI/>
   <TemplateURL/>

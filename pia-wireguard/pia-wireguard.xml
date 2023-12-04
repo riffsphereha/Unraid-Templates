@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>pia-wireguard</Name>
+  <Repository>thrnz/docker-wireguard-pia</Repository>
+  <Registry>https://hub.docker.com/r/thrnz/docker-wireguard-pia</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/thrnz/docker-wireguard-pia/issues</Support>
+  <Project>https://github.com/thrnz/docker-wireguard-pia</Project>
+  <Overview>A Docker container for using WireGuard with PIA. Can output the wiregard conf file to a directory</Overview>
+  <Category>Network:VPN</Category>
+  <Config Name="Server" Target="LOC" Default="" Mode="" Description="The location to use for your config. Can be found in https://serverlist.piaservers.net/vpninfo/servers/v6" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PIA User Name" Target="USER" Default="" Mode="" Description="Set your PIA User Name" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PIA Password" Target="PASS" Default="" Mode="" Description="Set your PIA Password" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Conf file output directory" Target="/etc/wireguard" Default="" Mode="rw" Description="Location where your wireguard conf file is being saved." Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/pia-wireguard</Config>
+  <Config Name="Port file" Target="PORT_FILE" Default="" Mode="" Description="Also can request a port forward. Will save this port here." Type="Variable" Display="always" Required="false" Mask="false">/mnt/user/appdata/pia-wg/port.dat</Config>
+</Container>
